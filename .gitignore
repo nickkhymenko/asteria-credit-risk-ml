@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data: the provided CSVs must not be committed or submitted
+data/
+*.csv
+!predictions.csv
+*.parquet
